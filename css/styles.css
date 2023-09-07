@@ -1,0 +1,184 @@
+:root {
+  --dark: #2e2f42;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark);
+}
+/* ======================COMPONENTS======================= */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: var(--primary-brand);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-theme-dark {
+  color: inherit;
+}
+.logo-theme-light {
+  color: var(--light);
+}
+.modal-btn {
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--primary-brand);
+  box-shadow: 0px 4px 4px 0px #00000026;
+  color: var(--white-background);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border: none;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--pressed-state);
+}
+
+.item-title {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.item-description-theme-dark {
+  color: var(--text);
+}
+.item-description-theme-light {
+  color: var(--light);
+}
+/* ======================/COMPONENTS======================= */
+
+/* ======================HEADER======================= */
+
+.menu-link {
+  color: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state);
+}
+
+.contacts-link {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--pressed-state);
+}
+/* ======================/HEADER======================= */
+
+/* ======================HERO======================= */
+.hero-section {
+  background: var(--dark);
+}
+.hero-title {
+  color: var(--white-background);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+/* ======================/HERO======================= */
+/* ======================BENEFITS======================= */
+
+/* ======================/BENEFITS======================= */
+/* ======================WHAT ARE WE DOING======================= */
+.section-title {
+  color: var(--dark);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+/* ======================/WHAT ARE WE DOING======================= */
+
+/* ======================PORTFOLIO======================= */
+.filter-btn {
+  color: var(--primary-brand);
+  text-align: center;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: 1px solid var(--accent);
+  background: var(--light);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-background);
+  background: var(--pressed-state);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+/* ======================/PORTFOLIO======================= */
+
+/* ======================OUR TEAM======================= */
+.team-section {
+  background: var(--light);
+}
+/* ======================/OUR TEAM======================= */
+
+/* ======================FOOTER======================= */
+.page-footer {
+  background: var(--dark);
+}
+
+/* ======================/FOOTER======================= */
