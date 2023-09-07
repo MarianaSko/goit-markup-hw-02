@@ -21,10 +21,12 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--dark);
+  color: var(--text);
+  background-color: var(--white-background);
 }
 /* ======================COMPONENTS======================= */
 .logo {
+  color: var(--primary-brand);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -33,27 +35,16 @@ body {
   text-transform: uppercase;
 }
 
-.logo-accent {
-  color: var(--primary-brand);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+.logo-part-theme-dark {
+  color: var(--dark);
 }
 
-.logo-theme-dark {
-  color: inherit;
-}
-.logo-theme-light {
+.logo-part-theme-light {
   color: var(--light);
 }
 .modal-btn {
   cursor: pointer;
-  border-radius: 4px;
-  background: var(--primary-brand);
-  box-shadow: 0px 4px 4px 0px #00000026;
+  background-color: var(--primary-brand);
   color: var(--white-background);
   font-family: inherit;
   font-size: 16px;
@@ -65,7 +56,7 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: var(--pressed-state);
+  background-color: var(--pressed-state);
 }
 
 .item-title {
@@ -82,18 +73,18 @@ body {
   letter-spacing: 0.32px;
 }
 
-.item-description-theme-dark {
-  color: var(--text);
-}
 .item-description-theme-light {
   color: var(--light);
 }
 /* ======================/COMPONENTS======================= */
 
 /* ======================HEADER======================= */
+.contacts-info {
+  font-style: normal;
+}
 
 .menu-link {
-  color: inherit;
+  color: var(--dark);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -106,7 +97,7 @@ body {
 }
 
 .contacts-link {
-  color: var(--text);
+  color: inherit;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -121,7 +112,7 @@ body {
 
 /* ======================HERO======================= */
 .hero-section {
-  background: var(--dark);
+  background-color: var(--dark);
 }
 .hero-title {
   color: var(--white-background);
@@ -155,24 +146,20 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  border-radius: 4px;
-  border: 1px solid var(--accent);
-  background: var(--light);
+  background-color: var(--light);
   cursor: pointer;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--white-background);
-  background: var(--pressed-state);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  background-color: var(--pressed-state);
 }
 /* ======================/PORTFOLIO======================= */
 
 /* ======================OUR TEAM======================= */
 .team-section {
-  background: var(--light);
+  background-color: var(--light);
 }
 /* ======================/OUR TEAM======================= */
 
