@@ -72,7 +72,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
+.item-description-theme-dark {
+  color: var(--text);
+}
 .item-description-theme-light {
   color: var(--light);
 }
@@ -158,9 +160,13 @@ body {
 /* ======================/PORTFOLIO======================= */
 
 /* ======================OUR TEAM======================= */
-/* .team-section {
+.team-section {
   background-color: var(--light);
-} */
+}
+
+.team-item {
+  background-color: var(--white-background);
+}
 /* ======================/OUR TEAM======================= */
 
 /* ======================FOOTER======================= */
